@@ -1,0 +1,41 @@
+#header{
+    color: skyblue;
+    font-size: 54px;
+    text-align: center;
+
+}
+#header.caught{
+    color: Red;
+    transition: all 0.4s ease;
+}
+
+.bgcolor{
+    justify-content: center;
+    background-color: black;
+}
+
+*{
+    font-family: 'Google Sans', sans-serif;
+}
+
+.card{
+    display: block;
+    width:max-content;
+    overflow: hidden;
+    position:absolute;
+    margin-top: 10%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#og{
+    text-align: center;
+    color: papayawhip;
+}
+
+#time{
+    font-family: "Syncopate" ;
+    font-size: 72px;
+    color:lightsalmon;
+}
